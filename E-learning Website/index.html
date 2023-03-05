@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+        <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+        <!-- Web page CSS -->
+        <link rel="stylesheet" href="assets/css/styles.css" />
+
+        <link rel="shortcut icon" href="#" />
+
+        <title>learnEdu</title>
+    </head>
+
+    <body>
+        <!-- Navbar -->
+        <nav>
+            <a href="#" class="logo">
+                <h1>learnEdu</h1>
+            </a>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#review">Reviews</a></li>
+                <li><a href="#course">Courses</a></li>
+                <li><a onclick="myFunction()">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main section -->
+        <div class="contents">
+            <section class="main">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-8 intro-text">
+                            <h1 class="titles">
+                                Learn Javascript<br />
+                                with Us<br />
+                            </h1>
+                            <p>
+                                We offer the best classes and teaching materials prepared by professional teachers, suitable for all levels of Javascript learners.<br />
+                                You can ask teachers questions at anytime. Let's discover how you can start your new class today.
+                                <br />
+                                <br />
+                            </p>
+                            <a class="btn-extend green" style="margin-right: 1.5rem" onclick="myFunction()">Contact Us</a>
+                            <a class="btn-extend red" href="#about">Learn More</a>
+                        </div>
+                        <div class="col-sm-4">
+                            <img src="assets/images/nihongopro2.jpg" alt="proverb Ichiryu-manbai" />
+                            <div class="stand-1"></div>
+                            <div class="stand-2"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- About section -->
+        <div class="contents">
+            <section class="about" id="about">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-4 about-img">
+                            <img src="assets/images/nihongopro3.jpg" alt="image of a student" loading="lazy" />
+                        </div>
+                        <div class="col-sm-8 about-right">
+                            <h1>How our online classes works</h1>
+                            <div class="column">
+                                <img src="assets/images/nihongopro-icon1.png" alt="Professional teachers" loading="lazy" />
+                                <h3>Professional teachers</h3>
+                                <p>Nisha teachers have valid teaching certification and at least 5 years of teaching experience.</p>
+                            </div>
+                            <div class="column">
+                                <img src="assets/images/nihongopro-icon2.png" alt="Teaching materials" loading="lazy" />
+                                <h3>Teaching materials</h3>
+                                <p>Our excellent online teaching materials will lead you to great learning experience.</p>
+                            </div>
+                            <div class="column">
+                                <img src="assets/images/nihongopro-icon3.png" alt="Questions" loading="lazy" />
+                                <h3>Ask questions anytime</h3>
+                                <p>Temping to ask grammar questions? You can ask us questions 24 hours.</p>
+                            </div>
+                            <div class="column">
+                                <img src="assets/images/nihongopro-icon4.png" alt="Refund & cancel" loading="lazy" />
+                                <h3>Refund & cancel</h3>
+                                <p>In case you’re not satisfied with our courses, you can pause or cancel at anytime.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Reviews section -->
+        <div class="contents">
+            <section class="review" id="review">
+                <div class="container-fluid">
+                    <div class="row">
+                        <h1>Reviews from our students</h1>
+                        <div class="col-sm-8 column-left">
+                            <div>
+                                <div class="column">
+                                    <h3>Warm welcome</h3>
+                                    <p>
+                                        "I was a little nervous when I joined the class for the first time, but I was welcomed warmly by excellent teachers and classmates."<br />
+                                        <br />
+                                        Anna Kenedy - Paris, France
+                                    </p>
+                                </div>
+                                <div class="column">
+                                    <h3>Highly recommended</h3>
+                                    <p>
+                                        "I always have lots of questions, so it is really happy for me to be able to ask questions at any time!"<br />
+                                        <br />
+                                        Fred Bakker<br />
+                                        Amsterdam, the Netherlands
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4">
+                            <img src="assets/images/nihongopro1.jpg" alt="image of a student" loading="lazy" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Courses section -->
+        <div class="contents">
+            <section class="courses" id="course">
+                <div class="container-fluid">
+                    <div class="row">
+                        <h1>Our limited Courses</h1>
+                        <div class="col-sm-4 column">
+                            <h2>Beginner</h2>
+                            <h3><span class="btn-courses">$50</span>&nbsp;/&nbsp;month</h3>
+                            <ul>
+                                <li>4 private classes with your favorite teachers</li>
+                                <li>8 group lessons</li>
+                                <li>JPLT support</li>
+                            </ul>
+                            <a class="btn-extend green" onclick="myFunction()">Contact Us</a>
+                        </div>
+
+                        <div class="col-sm-4 column">
+                            <h2>Intermediate</h2>
+                            <h3><span class="btn-courses">$60</span>&nbsp;/&nbsp;month</h3>
+                            <ul>
+                                <li>5 private classes with your favorite teachers</li>
+                                <li>10 group lessons</li>
+                                <li>JPLT support</li>
+                            </ul>
+                            <a class="btn-extend green" onclick="myFunction()">Contact Us</a>
+                        </div>
+                        <div class="col-sm-4 column" style="margin-right: 0">
+                            <h2>Advanced</h2>
+                            <h3><span class="btn-courses">$70</span>&nbsp;/&nbsp;month</h3>
+                            <ul>
+                                <li>6 private classes with your favorite teachers</li>
+                                <li>18 group lessons</li>
+                                <li>JPLT support</li>
+                            </ul>
+                            <a class="btn-extend green" onclick="myFunction()">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Social icons -->
+        <section class="social">
+            <h3>Connect with us on Social Media</h3>
+            <div class="socicons">
+                <a href="#"> <ion-icon name="logo-twitter"></ion-icon> </a>
+                <a href="#"> <ion-icon name="logo-instagram"></ion-icon> </a>
+                <a href="#"> <ion-icon name="logo-facebook"></ion-icon> </a>
+            </div>
+        </section>
+        <!-- Footer -->
+        <footer>&copy;2022. All Rights Reserved</footer>
+
+        <!-- Ion icons CDN -->
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+        <!-- contact form script -->
+        <script>
+            function myFunction() {
+                var myWindow = window.open("contact.html", "", "width=700");
+            }
+        </script>
+    </body>
+</html>
