@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Quizzler</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    </head>
+    <body>
+        <div class="title">
+            <h1 id="maintitle">Guess the Country ???</h1>
+        </div>
+
+        <div id="showScore" class="none">
+            <p>You scored</p>
+            <h1><span id="score">0</span> Points</h1>
+            <!-- <div class="actualvalues">
+                <div class="country">
+                    <img src="images/germany.png" alt="germany" />
+                    <h3>Germany</h3>
+                    <h3 class="yourans"></h3>
+                </div>
+                <div class="country">
+                    <img src="images/qatar.png" alt="qatar" />
+                    <h3>Qatar</h3>
+                    <h3 class="yourans"></h3>
+                </div>
+                <div class="country">
+                    <img src="images/southafrica.png" alt="southafrica" />
+                    <h3>South Africa</h3>
+                    <h3 class="yourans"></h3>
+                </div>
+                <div class="country">
+                    <img src="images/srilanka.png" alt="srilanka" />
+                    <h3>Sri Lanka</h3>
+                    <h3 class="yourans"></h3>
+                </div>
+                <div class="country">
+                    <img src="images/spain.png" alt="spain" />
+                    <h3>Spain</h3>
+                    <h3 class="yourans"></h3>
+                </div> -->
+                <!-- <div class="flags"><img src="images/germany.png" alt="germany" /> <img src="images/qatar.png " alt="qatar" /> <img src="images/southafrica.png" alt="southafrica" /> <img src="images/srilanka.png" alt="srilanka" /> <img src="images/spain.png" alt="spain" /></div>
+                <div class="names"><span class="countrynames">Germany</span><span class="countrynames">Qatar</span><span class="countrynames">South Africa</span><span class="countrynames">Sri Lanka</span><span class="countrynames">Spain</span></div> -->
+            </div>
+        </div>
+
+        <div id="container">
+            <div class="answer" id="ans">
+                <img src="images/default.png" alt="flag-image" height="200px" width="300px" id="flag" />
+
+                <div class="mcq">
+                    <div class="options">
+                        <input type="radio" name="option" id="opt_a" class="radiobtn" />
+                        <label for="opt_a" id="option1"> This is option A </label>
+                    </div>
+
+                    <div class="options">
+                        <input type="radio" name="option" id="opt_b" class="radiobtn" />
+                        <label for="opt_b" id="option2"> This is option B </label>
+                    </div>
+
+                    <div class="options">
+                        <input type="radio" name="option" id="opt_c" class="radiobtn" />
+                        <label for="opt_c" id="option3"> This is option C </label>
+                    </div>
+
+                    <div class="options">
+                        <input type="radio" name="option" id="opt_d" class="radiobtn" />
+                        <label for="opt_d" id="option4"> This is option D </label>
+                    </div>
+                </div>
+            </div>
+            <button id="next" class="btn">Next➡️</button>
+            <button id="retry" class="btn none">Retry</button>
+        </div>
+    </body>
+    <script src="logic.js"></script>
+</html>
